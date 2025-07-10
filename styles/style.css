@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #e0ffe7 0%, #f0faff 100%);
+    min-height: 100vh;
+}
+
+.header{
+    background-image: url(/Assets/Hero-bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 48px;
+    padding: 16px 32px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    font-weight: bold;
+
+}
+.hero-btn a{
+    list-style: none;
+}
+.hero-btn {
+
+    color: #fff;
+    background-color: #7053d8;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(56,224,10,0.15);
+    transition: 0.3s;
+    box-shadow : 0.3s; 
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: none;
+    position: relative;
+}
+
+.hero-btn:hover {
+    background: linear-gradient(90deg, #f44336 0%, #ff7e5f 100%);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(189, 98, 91, 0.18);
+    border: 1px solid black;
+}
+
+
+/* box style */
+
+.box{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 160px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 180px;
+    border: 2px solid black;
+}
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
