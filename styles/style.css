@@ -28,6 +28,10 @@ nav {
     font-weight: bold;
 
 }
+nav h1{
+    font-size: 40px;
+    color: #7053d8;
+}
 .hero-btn a{
     list-style: none;
 }
@@ -206,3 +210,30 @@ img {
 
 /* footer */
 
+footer{
+    text-align: center;
+
+
+}
+footer h1{
+    font-size: 100px;
+    color: #7053d8;
+    padding-bottom: 10px;
+}
+footer p{
+    color: #5b6579;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+footer li{
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
