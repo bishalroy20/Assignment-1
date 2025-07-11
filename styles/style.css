@@ -55,6 +55,7 @@ nav {
     box-shadow: 0 4px 16px rgba(189, 98, 91, 0.18);
     border: 1px solid black;
 }
+/* common  */
 
 
 /* box style */
@@ -64,13 +65,144 @@ nav {
     font-size: large;
     font-weight: 700;
     margin-top: 160px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-bottom: 180px;
     border: 2px solid black;
 }
-
+.box h1{
+    font-size: 60px;
+    text-decoration: solid;
+    text-shadow: 0px 4px 4px #000000;
+}
 .container{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+
+/* action container */
+
+.action-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #070709;
+    margin-bottom: 24px;
+    text-shadow: 0 2px 8px rgba(112, 83, 216, 0.08);
+}
+
+.action-details {
+    padding: 48px 32px;
+    background: rgba(255,255,255,0.95);
+    border: 2px solid #b3b9c5;
+    border-radius: 24px;
+    box-shadow: 0 6px 32px rgba(112, 83, 216, 0.10);
+    margin-bottom: 32px;
+}
+
+
+
+.action {
+    display: flex;
+    gap: 90px;
+    margin: 60px 0;
+    justify-content: center;
+}
+
+.p {
+    color: #252432;
+    font-size: 18px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 12px rgba(112, 83, 216, 0.07);
+    position: relative;
+    border: 1px solid #e0e0e0;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 650px;
+    height: 328px;
+    box-shadow: 0 4px 24px rgba(112, 83, 216, 0.13);
+    border: 2px solid #f0f8ff;
+}
+
+
+/* join */
+.join{
+    background-color: #d8d7f6;
+    margin: 120px;
+    padding: 50px;
+    border-radius: 25px;
+}
+.join-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.join-title{
+    text-align: center;
+   
+}
+/* review  */
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    
+}
+.card-title{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 25px;
+}
+.reviewer{
+    display: flex;
+    gap: 20px;
+}
+.reviewer img{
+    width: 40px;
+    height: auto;
+}
+
+
+/* focus */
+
+.focus{
+    background-color: #bdbdbd;
+    padding: 71px;
+    
+}
+.focus p{
+    
+    color: #5b6579;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* touch */
+.touch{
+    
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 100px;
+}
+.text-size{
+    font-weight: 700;
+    font-size: 80px;
+    align-items: center;
+}
+
+.touch input[type="text"],  .touch input[type="email"], .touch textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+/* footer */
+
